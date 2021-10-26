@@ -1,0 +1,100 @@
+.box-one{
+  background-color: #EB5757;
+  padding: 10px;
+  height: 100px;
+  width: 100px;
+  border: 20px solid #9B51E0; 
+  margin: 100px;
+
+}
+
+
+.box-two{
+  background-color: rgb(87, 235, 131);
+  padding: 10px;
+  height: 100px;
+  width: 100px;
+  border: 20px solid #9B51E0; 
+  margin: 100px;
+}
+
+
+.background {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://www.iucn.org/sites/dev/files/content/images/2020/shutterstock_1458128810.jpg);
+  background-position: center;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.navbar{
+  position: relative;
+  width: 100%;
+  height: 15vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.title{
+  text-align: center;
+  position: relative;
+  transform: translateY(-30%) translateX(-5%);
+  color: white;
+  margin: 10px 0 30px;
+  line-height: 60px;
+  font-size: 50px;
+}
+
+.logo{
+  transform: translateX(-20%) translateY(60%);
+  width: 100px;
+  crusor: pointer;
+}
+
+nav{
+  flex: 1;
+  padding-left: 60px;
+}
+
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 0px 30px;
+}
+
+button{
+  color: black;
+  padding: 10px 25px;
+  background: filled;
+  border: 1px solid #fff;
+  border-radius: 20px;
+}
+
+.divider{
+  width: 5px;
+  height: auto;
+  display: inline-block;
+}
+
+.options{
+  position: relative;
+  width: 100px;
+  margin: 10px 0 30px;
+  color: white;
+  text-align: center;
+  transform: translateX(250%);
+}
+
+.column{
+
+  float: left;
+  width:16%
+}
+
+.row:after{
+  content:"";
+  display: table;
+  clear: both;
+}

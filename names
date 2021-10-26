@@ -1,0 +1,78 @@
+var lunch = {
+  Savor:{
+    item1:{
+     name : "Lamb",
+     calories: 500, 
+     protein : 20 
+     },
+     item2:{
+     name : "Lamb",
+     calories: 500, 
+     protein : 20 
+
+
+     item3:{
+     name : "Lamb",
+     calories: 500, 
+     protein : 20 
+     }
+  }
+  Hala:{
+    item2:{
+     name : "Lamb",
+     calories: 500, 
+     protein : 20 
+    }
+     item2:{
+     name : "Lamb",
+     calories: 500, 
+     protein : 20 
+     }
+     item3:{
+     name : "Lamb",
+     calories: 500, 
+     protein : 20 
+     }
+
+  }
+  G8:{
+    item2:{
+     name : "Basmati Rice ",
+     calories: 190, 
+     protein : 20 
+     }
+     item2:{
+     name : "Roast Turkey",
+     calories: 500, 
+     protein : 20 
+     }
+     item2:{
+     name : "Herbed Squash Medley",
+     calories: 500, 
+     protein : 20 
+     }
+
+
+  }
+  Flame:{
+    item2:{
+     name : "Classic Bacon, Lettuce and Tomato ",
+     calories: 33, 
+     protein : 20 
+     }
+     item2:{
+     name : "Hamburger patty ",
+     calories: 500, 
+     protein : 20 
+     }
+     item2:{
+     name : "Grilled Chicken",
+     calories: 500, 
+     protein : 20 
+     }
+
+
+
+  }
+
+}
